@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72B1324B29DB0131002FB743 /* Chess101App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1324A29DB0131002FB743 /* Chess101App.swift */; };
+		72B1324D29DB0131002FB743 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1324C29DB0131002FB743 /* GameView.swift */; };
+		72B1324F29DB0133002FB743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B1324E29DB0133002FB743 /* Assets.xcassets */; };
+		72B1325229DB0133002FB743 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B1325129DB0133002FB743 /* Preview Assets.xcassets */; };
+		72B1325929DB2DA1002FB743 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1325829DB2DA1002FB743 /* Question.swift */; };
+		72B1325B29DB2F74002FB743 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1325A29DB2F74002FB743 /* ChoiceTextView.swift */; };
+		72B1325D29DDB2E4002FB743 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1325C29DDB2E4002FB743 /* Game.swift */; };
+		72B1326129DDD197002FB743 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1326029DDD197002FB743 /* WelcomeView.swift */; };
+		72B1326329DDD533002FB743 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1326229DDD533002FB743 /* GameColor.swift */; };
+		72B1326529DDD619002FB743 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1326429DDD619002FB743 /* BottomTextView.swift */; };
+		72B1326729DF1012002FB743 /* GameViewModel.swft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1326629DF1011002FB743 /* GameViewModel.swft.swift */; };
+		72B1326A29DF1366002FB743 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1326929DF1366002FB743 /* QuestionView.swift */; };
+		72B1326C29DF1944002FB743 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1326B29DF1944002FB743 /* ScoreView.swift */; };
+		72B1326E29DF19B7002FB743 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1326D29DF19B7002FB743 /* ScoreViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72B1324729DB0131002FB743 /* Chess101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B1324A29DB0131002FB743 /* Chess101App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess101App.swift; sourceTree = "<group>"; };
+		72B1324C29DB0131002FB743 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		72B1324E29DB0133002FB743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72B1325129DB0133002FB743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72B1325829DB2DA1002FB743 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		72B1325A29DB2F74002FB743 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		72B1325C29DDB2E4002FB743 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		72B1326029DDD197002FB743 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		72B1326229DDD533002FB743 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		72B1326429DDD619002FB743 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		72B1326629DF1011002FB743 /* GameViewModel.swft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swft.swift; sourceTree = "<group>"; };
+		72B1326929DF1366002FB743 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		72B1326B29DF1944002FB743 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		72B1326D29DF19B7002FB743 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B1324429DB0131002FB743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72B1323E29DB0131002FB743 = {
+			isa = PBXGroup;
+			children = (
+				72B1324929DB0131002FB743 /* Chess101 */,
+				72B1324829DB0131002FB743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72B1324829DB0131002FB743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B1324729DB0131002FB743 /* Chess101.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B1324929DB0131002FB743 /* Chess101 */ = {
+			isa = PBXGroup;
+			children = (
+				72B1325E29DDB33B002FB743 /* Models */,
+				72B1325F29DDB362002FB743 /* Views */,
+				72B1324A29DB0131002FB743 /* Chess101App.swift */,
+				72B1324E29DB0133002FB743 /* Assets.xcassets */,
+				72B1325029DB0133002FB743 /* Preview Content */,
+			);
+			path = Chess101;
+			sourceTree = "<group>";
+		};
+		72B1325029DB0133002FB743 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72B1325129DB0133002FB743 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72B1325E29DDB33B002FB743 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72B1325829DB2DA1002FB743 /* Question.swift */,
+				72B1325C29DDB2E4002FB743 /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72B1325F29DDB362002FB743 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72B1325A29DB2F74002FB743 /* ChoiceTextView.swift */,
+				72B1326229DDD533002FB743 /* GameColor.swift */,
+				72B1326029DDD197002FB743 /* WelcomeView.swift */,
+				72B1326429DDD619002FB743 /* BottomTextView.swift */,
+				72B1326929DF1366002FB743 /* QuestionView.swift */,
+				72B1324C29DB0131002FB743 /* GameView.swift */,
+				72B1326B29DF1944002FB743 /* ScoreView.swift */,
+				72B1326829DF10B4002FB743 /* ViewModels */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72B1326829DF10B4002FB743 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				72B1326629DF1011002FB743 /* GameViewModel.swft.swift */,
+				72B1326D29DF19B7002FB743 /* ScoreViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B1324629DB0131002FB743 /* Chess101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B1325529DB0133002FB743 /* Build configuration list for PBXNativeTarget "Chess101" */;
+			buildPhases = (
+				72B1324329DB0131002FB743 /* Sources */,
+				72B1324429DB0131002FB743 /* Frameworks */,
+				72B1324529DB0131002FB743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chess101;
+			productName = Chess101;
+			productReference = 72B1324729DB0131002FB743 /* Chess101.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B1323F29DB0131002FB743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					72B1324629DB0131002FB743 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 72B1324229DB0131002FB743 /* Build configuration list for PBXProject "Chess101" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72B1323E29DB0131002FB743;
+			productRefGroup = 72B1324829DB0131002FB743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B1324629DB0131002FB743 /* Chess101 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B1324529DB0131002FB743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B1325229DB0133002FB743 /* Preview Assets.xcassets in Resources */,
+				72B1324F29DB0133002FB743 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B1324329DB0131002FB743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B1326A29DF1366002FB743 /* QuestionView.swift in Sources */,
+				72B1325929DB2DA1002FB743 /* Question.swift in Sources */,
+				72B1326729DF1012002FB743 /* GameViewModel.swft.swift in Sources */,
+				72B1326E29DF19B7002FB743 /* ScoreViewModel.swift in Sources */,
+				72B1326129DDD197002FB743 /* WelcomeView.swift in Sources */,
+				72B1325D29DDB2E4002FB743 /* Game.swift in Sources */,
+				72B1324D29DB0131002FB743 /* GameView.swift in Sources */,
+				72B1326529DDD619002FB743 /* BottomTextView.swift in Sources */,
+				72B1326C29DF1944002FB743 /* ScoreView.swift in Sources */,
+				72B1326329DDD533002FB743 /* GameColor.swift in Sources */,
+				72B1325B29DB2F74002FB743 /* ChoiceTextView.swift in Sources */,
+				72B1324B29DB0131002FB743 /* Chess101App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72B1325329DB0133002FB743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72B1325429DB0133002FB743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72B1325629DB0133002FB743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chess101/Preview Content\"";
+				DEVELOPMENT_TEAM = RJQGMF9477;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wingheitsui.Chess101;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72B1325729DB0133002FB743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chess101/Preview Content\"";
+				DEVELOPMENT_TEAM = RJQGMF9477;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wingheitsui.Chess101;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B1324229DB0131002FB743 /* Build configuration list for PBXProject "Chess101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B1325329DB0133002FB743 /* Debug */,
+				72B1325429DB0133002FB743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B1325529DB0133002FB743 /* Build configuration list for PBXNativeTarget "Chess101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B1325629DB0133002FB743 /* Debug */,
+				72B1325729DB0133002FB743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72B1323F29DB0131002FB743 /* Project object */;
+}
