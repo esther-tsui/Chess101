@@ -25,3 +25,5 @@ struct Question: Hashable {
         Question(questionText: "In 1988 a computer won against a GM for the first time. What was the computer called?", possibleAnswers: ["Deep Think", "Deep Mind", "Deep Blue", "Deep Thought"], correctAnswerIndex: 3)
     ]
 }
+
+//I made a comment here for GitHub merge
